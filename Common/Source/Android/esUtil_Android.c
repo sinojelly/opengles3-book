@@ -139,7 +139,7 @@ void android_main ( struct android_app *pApp )
    float lastTime;
 
    // Make sure glue isn't stripped.
-   app_dummy();
+   //app_dummy();
 
    // Initialize the context
    memset ( &esContext, 0, sizeof ( ESContext ) );
